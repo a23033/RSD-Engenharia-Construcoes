@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\RSD Engenharia & Construções.csproj": {}
+    "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD-Engenharia-Construcoes\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\RSD Engenharia & Construções.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\RSD Engenharia & Construções.csproj": {
+    "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD-Engenharia-Construcoes\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\RSD Engenharia & Construções.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\RSD Engenharia & Construções.csproj",
+        "projectUniqueName": "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD-Engenharia-Construcoes\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\RSD Engenharia & Construções.csproj",
         "projectName": "RSD Engenharia & Construções",
-        "projectPath": "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\RSD Engenharia & Construções.csproj",
+        "projectPath": "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD-Engenharia-Construcoes\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\RSD Engenharia & Construções.csproj",
         "packagesPath": "C:\\Users\\RSD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\obj\\",
+        "outputPath": "C:\\Users\\RSD\\Desktop\\IPCA\\2ºano\\1ºSemestre\\POO\\RSD Engenharia & Construções\\RSD-Engenharia-Construcoes\\RSD Engenharia & Construções\\RSD Engenharia & Construções\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
