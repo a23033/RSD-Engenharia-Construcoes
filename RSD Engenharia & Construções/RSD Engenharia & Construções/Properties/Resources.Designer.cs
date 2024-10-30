@@ -63,6 +63,26 @@ namespace RSD_Engenharia___Construções.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FecharAcao {
+            get {
+                object obj = ResourceManager.GetObject("FecharAcao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FecharDefault {
+            get {
+                object obj = ResourceManager.GetObject("FecharDefault", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PalavraPasse {
             get {
                 object obj = ResourceManager.GetObject("PalavraPasse", resourceCulture);

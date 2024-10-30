@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RSD Engenharia & Construções")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b1e684ef0d7b915bcf05208dc78587e2bff1a1b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53a13d5d15a86537085d2ad47af0e210220d1a7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("RSD Engenharia & Construções")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RSD Engenharia & Construções")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

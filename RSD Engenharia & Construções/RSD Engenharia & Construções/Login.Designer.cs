@@ -37,9 +37,11 @@
             pictureBox2 = new PictureBox();
             panel1 = new Panel();
             btn_Login_IniciarSessao = new Button();
+            pic_Login_Fechar = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pic_Logo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pic_Login_Fechar).BeginInit();
             SuspendLayout();
             // 
             // panel_Login_Topo
@@ -133,12 +135,27 @@
             btn_Login_IniciarSessao.MouseEnter += btn_Login_IniciarSessao_MouseEnter;
             btn_Login_IniciarSessao.MouseLeave += btn_Login_IniciarSessao_MouseLeave;
             // 
+            // pic_Login_Fechar
+            // 
+            pic_Login_Fechar.BackColor = Color.Transparent;
+            pic_Login_Fechar.Image = Properties.Resources.FecharDefault;
+            pic_Login_Fechar.Location = new Point(421, 12);
+            pic_Login_Fechar.Name = "pic_Login_Fechar";
+            pic_Login_Fechar.Size = new Size(33, 27);
+            pic_Login_Fechar.SizeMode = PictureBoxSizeMode.Zoom;
+            pic_Login_Fechar.TabIndex = 10;
+            pic_Login_Fechar.TabStop = false;
+            pic_Login_Fechar.Click += pic_Login_Fechar_Click;
+            pic_Login_Fechar.MouseEnter += pic_Login_Fechar_MouseEnter;
+            pic_Login_Fechar.MouseLeave += pic_Login_Fechar_MouseLeave;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(460, 699);
+            Controls.Add(pic_Login_Fechar);
             Controls.Add(btn_Login_IniciarSessao);
             Controls.Add(panel1);
             Controls.Add(pictureBox2);
@@ -156,6 +173,7 @@
             ((System.ComponentModel.ISupportInitialize)pic_Logo).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pic_Login_Fechar).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -170,5 +188,6 @@
         private PictureBox pictureBox2;
         private Panel panel1;
         private Button btn_Login_IniciarSessao;
+        private PictureBox pic_Login_Fechar;
     }
 }

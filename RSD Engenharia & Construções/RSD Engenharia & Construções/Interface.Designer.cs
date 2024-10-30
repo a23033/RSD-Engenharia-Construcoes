@@ -32,8 +32,10 @@
             panel_Interface_Topo = new Panel();
             panel_Interface_Esquerdo = new Panel();
             pic_Logo = new PictureBox();
+            pic_Interface_Fechar = new PictureBox();
             panel_Interface_Esquerdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pic_Logo).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pic_Interface_Fechar).BeginInit();
             SuspendLayout();
             // 
             // panel_Interface_Topo
@@ -65,12 +67,27 @@
             pic_Logo.TabIndex = 3;
             pic_Logo.TabStop = false;
             // 
+            // pic_Interface_Fechar
+            // 
+            pic_Interface_Fechar.BackColor = Color.Transparent;
+            pic_Interface_Fechar.Image = Properties.Resources.FecharDefault;
+            pic_Interface_Fechar.Location = new Point(1415, 13);
+            pic_Interface_Fechar.Name = "pic_Interface_Fechar";
+            pic_Interface_Fechar.Size = new Size(33, 27);
+            pic_Interface_Fechar.SizeMode = PictureBoxSizeMode.Zoom;
+            pic_Interface_Fechar.TabIndex = 8;
+            pic_Interface_Fechar.TabStop = false;
+            pic_Interface_Fechar.Click += pic_Interface_Fechar_Click;
+            pic_Interface_Fechar.MouseEnter += pic_Interface_Fechar_MouseEnter;
+            pic_Interface_Fechar.MouseLeave += pic_Interface_Fechar_MouseLeave;
+            // 
             // Interface
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1454, 825);
+            Controls.Add(pic_Interface_Fechar);
             Controls.Add(panel_Interface_Topo);
             Controls.Add(panel_Interface_Esquerdo);
             Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -81,6 +98,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             panel_Interface_Esquerdo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pic_Logo).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pic_Interface_Fechar).EndInit();
             ResumeLayout(false);
         }
 
@@ -89,5 +107,6 @@
         private Panel panel_Interface_Topo;
         private Panel panel_Interface_Esquerdo;
         private PictureBox pic_Logo;
+        private PictureBox pic_Interface_Fechar;
     }
 }

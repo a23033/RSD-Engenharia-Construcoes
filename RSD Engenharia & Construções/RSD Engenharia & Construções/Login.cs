@@ -8,20 +8,19 @@ namespace RSD_Engenharia___Construções
     public partial class Login : Form
     {
 
-        private SqlDataAdapter da;
         private SqlConnection conn;
-        BindingSource bsource = new BindingSource();
-        DataSet ds = null;
         string sql;
 
         string ConexaoBD;
 
         public Login()
         {
-            ConexaoBD= @"Data Source=DESKTOP-4A1BBI2\SQLEXPRESS;Initial Catalog=RSD;Integrated Security=True";
+            ConexaoBD = @"Data Source=DESKTOP-4A1BBI2\SQLEXPRESS;Initial Catalog=RSD;Integrated Security=True";
             InitializeComponent();
             Design();
         }
+
+        #region Design
         private void Design()
         {
             #region Campos
@@ -32,8 +31,6 @@ namespace RSD_Engenharia___Construções
             #endregion
         }
 
-        #region Iniciar Sessão
-
         private void btn_Login_IniciarSessao_MouseEnter(object sender, EventArgs e)
         {
             btn_Login_IniciarSessao.ForeColor = Color.FromArgb(178, 145, 70);
@@ -43,11 +40,30 @@ namespace RSD_Engenharia___Construções
         {
             btn_Login_IniciarSessao.ForeColor = Color.White;
         }
+        private void pic_Login_Fechar_MouseEnter(object sender, EventArgs e)
+        {
+            pic_Login_Fechar.Image = Properties.Resources.FecharAcao;
+        }
+
+        private void pic_Login_Fechar_MouseLeave(object sender, EventArgs e)
+        {
+            pic_Login_Fechar.Image = Properties.Resources.FecharDefault;
+        }
+
+        #endregion
+
+        #region Botões
+        private void pic_Login_Fechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        #endregion
+
+        #region Iniciar Sessão
 
         private void btn_Login_IniciarSessao_Click(object sender, EventArgs e)
         {
-
-            string connectionString = ConexaoBD;
 
             if (NetworkInterface.GetIsNetworkAvailable())
             {
@@ -65,7 +81,7 @@ namespace RSD_Engenharia___Construções
                     string usernamevalidacao = string.Empty;
                     string passwordvalidacao = string.Empty;
 
-                    using (SqlConnection conn = new SqlConnection(connectionString))
+                    using (SqlConnection conn = new SqlConnection(ConexaoBD))
                     {
 
                         conn.Open();
@@ -123,5 +139,7 @@ namespace RSD_Engenharia___Construções
         }
 
         #endregion
+
+       
     }
 }
